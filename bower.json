@@ -1,0 +1,21 @@
+{
+  "name": "upch-yii2-theme",
+  "description": "Template Institucional",
+  "main": "index.js",
+  "authors": [
+    "Jóse Nolberto Vilchez Moreno <jnolbertovm@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nolbertovilchez/upch-yii2-theme",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.2"
+  }
+}

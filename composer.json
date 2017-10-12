@@ -11,7 +11,25 @@
             "email": "jnolbertovm@gmail.com"
         }
     ],
+    "config": {
+        "process-timeout": 1800,
+        "vendor-dir": "dist/vendor",
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "dist/vendor/npm",
+                "bower-asset-library": "dist/vendor/bower"
+            }
+        }
+    },
     "minimum-stability": "stable",
+    "scripts": {
+        "post-update-cmd": [
+            "bower install"
+        ],
+        "post-install-cmd": [
+            "bower install --production"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "upch\\theme\\": ""
