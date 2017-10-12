@@ -1,0 +1,20 @@
+{
+    "name": "upch/yii2-theme",
+    "description": "Template institucional",
+    "type": "upch-yii2-extension",
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Jóse Nolberto Vilchez Moreno",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "upch\\theme\\": ""
+        }
+    }
+}
