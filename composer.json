@@ -3,7 +3,10 @@
     "description": "Template institucional",
     "type": "upch-yii2-extension",
     "require": {
-        "yiisoft/yii2": "^2.0"
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/bootstrap": "^3.3",
+        "bower-asset/materialize": "^0.100.2",
+        "bower-asset/fontawesome": "^4.7"
     },
     "authors": [
         {
@@ -20,7 +23,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "upch\\theme\\": ""
+            "upch\\theme\\padlock\\": ""
         }
     }
 }
