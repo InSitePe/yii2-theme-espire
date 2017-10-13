@@ -5,6 +5,11 @@ import rename from 'gulp-rename';
 import uglify from 'gulp-uglify';
 import concat from 'gulp-concat';
 
+gulp.task('materialize:fonts', () => {
+    return gulp.src(['./vendor/bower/materialize/dist/**/fonts/**/*'])
+            .pipe(gulp.dest('./dist'));
+});
+
 gulp.task('js:base', () => {
     return gulp.src([
         './vendor/bower/bootstrap/js/transition.js',
@@ -37,4 +42,4 @@ gulp.task('less', (cb) => {
             .pipe(gulp.dest('./dist/css'));
 });
 
-gulp.task('default', ['less', 'js:base', 'js']);
+gulp.task('default', ['less', 'js:base', 'js', 'materialize:fonts']);
