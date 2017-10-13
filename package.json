@@ -1,17 +1,17 @@
 {
-  "name": "upch-yii2-theme",
+  "name": "upch-theme-padlock",
   "version": "1.0.0",
   "description": "Template Institucional",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/nolbertovilchez/upch-yii2-theme.git",
+  "repository": "git+https://github.com/nolbertovilchez/upch-theme-padlock.git",
   "author": "Jóse Nolberto Vilchez Moreno <jnolbertovm@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nolbertovilchez/upch-yii2-theme/issues"
+    "url": "https://github.com/nolbertovilchez/upch-theme-padlock/issues"
   },
-  "homepage": "https://github.com/nolbertovilchez/upch-yii2-theme#readme",
+  "homepage": "https://github.com/nolbertovilchez/upch-theme-padlock#readme",
   "dependencies": {}
 }

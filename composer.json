@@ -1,10 +1,9 @@
 {
-    "name": "upch/yii2-theme",
+    "name": "upch/theme-padlock",
     "description": "Template institucional",
     "type": "upch-yii2-extension",
     "require": {
-        "yiisoft/yii2": "^2.0",
-        "bower-asset/materialize": "@stable"
+        "yiisoft/yii2": "^2.0"
     },
     "authors": [
         {
