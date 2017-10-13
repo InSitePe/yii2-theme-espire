@@ -2,7 +2,7 @@
 
 namespace upch\theme\padlock\assets;
 
-class AppAsset extends \yii\web\AssetBundle\AssetBundle {
+class AppAsset extends \yii\web\AssetBundle {
 
     public $sourcePath = '@vendor/upch/theme-padlock/dist';
     public $css        = [
