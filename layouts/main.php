@@ -13,30 +13,40 @@ AppAsset::register($this);
     <head>
         <meta charset="<?= Yii::$app->charset ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
     <body>
         <?php $this->beginBody() ?>
-        <header>
-            <?= $this->render("main-navbar.php") ?>
-            <?= $this->render("main-sidenav.php") ?>
-        </header>
-        <main>
-            <div class="container">
-                <?= $content ?>
+        <div class="app header-danger">
+            <div class="layout">
+                <!-- Side Nav START -->
+                <?= $this->render("main-sidenav.php") ?>
+                <!-- Side Nav END -->
+                <!-- Page Container START -->
+                <div class="page-container">
+                    <!-- Header START -->
+                    <?= $this->render("main-navbar.php") ?>
+                    <!-- Header END -->
+
+                    <!-- Content Wrapper START -->
+                    <div class="main-content">
+                        <div class="container-fluid">
+                            <?= $content ?>
+                        </div>
+                    </div>
+                    <!-- Content Wrapper END -->
+
+                    <!-- Footer START -->
+                    <?= $this->render("main-footer.php") ?>
+                    <!-- Footer END -->
+
+                </div>
+                <!-- Page Container END -->
             </div>
-        </main>
-        <footer>
-            <div class="copyright">
-                UPCH.&nbsp;2017&nbsp;©&nbsp; 
-                <a target="_blank" href="#">
-                    Padlock
-                </a>
-            </div>
-        </footer>
+        </div>
         <?php $this->endBody() ?>
     </body>
 </html>
