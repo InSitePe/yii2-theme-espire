@@ -16,7 +16,7 @@ class AppAsset extends \yii\web\AssetBundle {
     public $skin       = 'skin-blue';
     public $depends    = [
         'yii\web\JqueryAsset',
-        'upch\theme\assets\padlock\FontAwesomeAsset'
+        'upch\theme\padlock\assets\FontAwesomeAsset'
     ];
 
 }
