@@ -3,7 +3,8 @@
     "description": "Template institucional",
     "type": "upch-yii2-extension",
     "require": {
-        "yiisoft/yii2": "^2.0"
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/materialize": "@stable"
     },
     "authors": [
         {
@@ -11,25 +12,13 @@
             "email": "jnolbertovm@gmail.com"
         }
     ],
-    "config": {
-        "process-timeout": 1800,
-        "vendor-dir": "dist/vendor",
-        "fxp-asset": {
-            "installer-paths": {
-                "npm-asset-library": "dist/vendor/npm",
-                "bower-asset-library": "dist/vendor/bower"
-            }
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     },
     "minimum-stability": "stable",
-    "scripts": {
-        "post-update-cmd": [
-            "bower install"
-        ],
-        "post-install-cmd": [
-            "bower install --production"
-        ]
-    },
     "autoload": {
         "psr-4": {
             "upch\\theme\\": ""
