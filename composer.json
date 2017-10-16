@@ -1,11 +1,11 @@
 {
-    "name": "upch/theme-padlock",
-    "description": "Template institucional",
-    "type": "upch-yii2-extension",
+    "name": "insite/yii2-theme-espire",
+    "description": "Template Espire",
+    "type": "library",
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/nolbertovilchez/upch-yii2-asset"
+            "url": "https://github.com/nolbertovilchez/yii2-asset"
         }
     ],
     "require": {
@@ -22,12 +22,15 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     },
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "upch\\theme\\padlock\\": ""
+            "insite\\theme\\espire\\": ""
         }
     }
 }
