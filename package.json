@@ -1,18 +1,18 @@
 {
-  "name": "upch-theme-padlock",
+  "name": "insite-yii2-theme-espire",
   "version": "1.0.0",
   "description": "Template Institucional",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/nolbertovilchez/upch-theme-padlock.git",
+  "repository": "git+https://github.com/nolbertovilchez/insite-theme-padlock.git",
   "author": "Jóse Nolberto Vilchez Moreno <jnolbertovm@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nolbertovilchez/upch-theme-padlock/issues"
+    "url": "https://github.com/nolbertovilchez/insite-theme-padlock/issues"
   },
-  "homepage": "https://github.com/nolbertovilchez/upch-theme-padlock#readme",
+  "homepage": "https://github.com/nolbertovilchez/insite-theme-padlock#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
