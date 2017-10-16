@@ -1,18 +1,18 @@
 {
-  "name": "insite-yii2-theme-espire",
+  "name": "yii2-theme-espire",
   "version": "1.0.0",
-  "description": "Template Institucional",
+  "description": "Template Espire",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/nolbertovilchez/insite-theme-padlock.git",
+  "repository": "git+https://github.com/nolbertovilchez/yii2-theme-espire.git",
   "author": "Jóse Nolberto Vilchez Moreno <jnolbertovm@gmail.com>",
-  "license": "ISC",
+  "license": "LGPL",
   "bugs": {
-    "url": "https://github.com/nolbertovilchez/insite-theme-padlock/issues"
+    "url": "https://github.com/nolbertovilchez/yii2-theme-espire/issues"
   },
-  "homepage": "https://github.com/nolbertovilchez/insite-theme-padlock#readme",
+  "homepage": "https://github.com/nolbertovilchez/yii2-theme-espire#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
