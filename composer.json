@@ -1,6 +1,7 @@
 {
     "name": "insite/yii2-theme-espire",
     "description": "Template Espire",
+    "licence": "LGPL",
     "type": "library",
     "repositories": [
         {
@@ -10,7 +11,7 @@
     ],
     "require": {
         "yiisoft/yii2": "^2.0",
-        "upch/yii2-asset": "dev-master"
+        "insite/yii2-asset": "^1.0"
     },
     "authors": [
         {
