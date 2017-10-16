@@ -1,7 +1,7 @@
 {
     "name": "insite/yii2-theme-espire",
     "description": "Template Espire",
-    "licence": "LGPL",
+    "license": "LGPL",
     "type": "library",
     "repositories": [
         {
