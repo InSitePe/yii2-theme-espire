@@ -6,6 +6,8 @@ use yii\helpers\Html;
 use insite\theme\espire\assets\AppAsset;
 
 AppAsset::register($this);
+
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/insite/yii2-theme-espire/dist');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -23,12 +25,12 @@ AppAsset::register($this);
         <div class="app header-danger">
             <div class="layout">
                 <!-- Side Nav START -->
-                <?= $this->render("main-sidenav.php") ?>
+                <?= $this->render("main-sidenav.php", ["assets" => $directoryAsset]) ?>
                 <!-- Side Nav END -->
                 <!-- Page Container START -->
                 <div class="page-container">
                     <!-- Header START -->
-                    <?= $this->render("main-navbar.php") ?>
+                    <?= $this->render("main-navbar.php", ["assets" => $directoryAsset]) ?>
                     <!-- Header END -->
 
                     <!-- Content Wrapper START -->
@@ -40,7 +42,7 @@ AppAsset::register($this);
                     <!-- Content Wrapper END -->
 
                     <!-- Footer START -->
-                    <?= $this->render("main-footer.php") ?>
+                    <?= $this->render("main-footer.php", ["assets" => $directoryAsset]) ?>
                     <!-- Footer END -->
 
                 </div>

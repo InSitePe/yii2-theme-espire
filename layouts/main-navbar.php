@@ -24,7 +24,7 @@
                             <ul class="list-unstyled list-info">
                                 <li>
                                     <a href="">
-                                        <img class="thumb-img" src="assets/images/avatars/thumb-1.jpg" alt="">
+                                        <img class="thumb-img" src="<?=$assets?>/avatars/thumb-1.jpg" alt="">
                                         <div class="info">
                                             <span class="title">Jordan Hurst</span>
                                             <span class="sub-title">
@@ -36,7 +36,7 @@
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img class="thumb-img" src="assets/images/avatars/thumb-5.jpg" alt="">
+                                        <img class="thumb-img" src="<?=$assets?>/avatars/thumb-5.jpg" alt="">
                                         <div class="info">
                                             <span class="title">Jennifer Watkins</span>
                                             <span class="sub-title">
@@ -48,7 +48,7 @@
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img class="thumb-img" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                        <img class="thumb-img" src="<?=$assets?>/avatars/thumb-4.jpg" alt="">
                                         <div class="info">
                                             <span class="title">Michael Birch</span>
                                             <span class="sub-title">
@@ -69,7 +69,7 @@
                             <ul class="list-unstyled list-info">
                                 <li>
                                     <a href="">
-                                        <img class="thumb-img" src="assets/images/img-1.jpg" alt="">
+                                        <img class="thumb-img" src="<?=$assets?>/img-1.jpg" alt="">
                                         <div class="info">
                                             <span class="title">Artoo expresses his relief</span>
                                             <span class="sub-title">
@@ -80,7 +80,7 @@
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img class="thumb-img" src="assets/images/img-2.jpg" alt="">
+                                        <img class="thumb-img" src="<?=$assets?>/img-2.jpg" alt="">
                                         <div class="info">
                                             <span class="title">Ready for some power?</span>
                                             <span class="sub-title">
@@ -101,7 +101,7 @@
         <ul class="nav-right">
             <li class="user-profile dropdown">
                 <a href="" class="dropdown-toggle" data-toggle="dropdown">
-                    <img class="profile-img img-fluid" src="assets/images/user.jpg" alt="">
+                    <img class="profile-img img-fluid" src="<?=$assets?>/user.jpg" alt="">
                     <div class="user-info">
                         <span class="name pdd-right-5">Nate Leong</span>
                         <i class="ti-angle-down font-size-10"></i>
@@ -150,7 +150,7 @@
                         <ul class="list-info overflow-y-auto relative scrollable">
                             <li>
                                 <a href="">
-                                    <img class="thumb-img" src="assets/images/avatars/thumb-5.jpg" alt="">
+                                    <img class="thumb-img" src="<?=$assets?>/avatars/thumb-5.jpg" alt="">
                                     <div class="info">
                                         <span class="title">
                                             <span class="font-size-14 text-semibold">Jennifer Watkins</span>
@@ -162,7 +162,7 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <img class="thumb-img" src="assets/images/avatars/thumb-4.jpg" alt="">
+                                    <img class="thumb-img" src="<?=$assets?>/avatars/thumb-4.jpg" alt="">
                                     <div class="info">
                                         <span class="title">
                                             <span class="font-size-14 text-semibold">Samuel Field</span>
