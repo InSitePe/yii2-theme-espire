@@ -13,10 +13,14 @@ class AppAsset extends \yii\web\AssetBundle {
         'css/app.min.css'
     ];
     
+    public $js = [
+        'js/app.min.js'
+    ];
+    
     public $depends    = [
         'yii\web\JqueryAsset',
         'insite\asset\Popper',
-        'yii\bootstrap\BootstrapAsset',
+        'insite\asset\Bootstrap4',
         'insite\asset\Pace',
         'insite\asset\PerfectScrollbar'
     ];
