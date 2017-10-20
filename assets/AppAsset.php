@@ -1,10 +1,10 @@
 <?php
 
-namespace upch\theme\padlock\assets;
+namespace insite\theme\espire\assets;
 
 class AppAsset extends \yii\web\AssetBundle {
 
-    public $sourcePath = '@vendor/upch/theme-padlock/dist';
+    public $sourcePath = '@vendor/insite/yii2-theme-espire/dist';
     
     public $css        = [
         'css/ei-icon.css',

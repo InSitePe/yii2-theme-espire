@@ -3,7 +3,7 @@
 /* @var $content string */
 
 use yii\helpers\Html;
-use upch\theme\padlock\assets\AppAsset;
+use insite\theme\espire\assets\AppAsset;
 
 AppAsset::register($this);
 ?>
