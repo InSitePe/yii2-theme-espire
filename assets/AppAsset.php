@@ -15,10 +15,10 @@ class AppAsset extends \yii\web\AssetBundle {
     
     public $depends    = [
         'yii\web\JqueryAsset',
-        'upch\asset\Popper',
+        'insite\asset\Popper',
         'yii\bootstrap\BootstrapAsset',
-        'upch\asset\Pace',
-        'upch\asset\PerfectScrollbar'
+        'insite\asset\Pace',
+        'insite\asset\PerfectScrollbar'
     ];
     
     public function init()
