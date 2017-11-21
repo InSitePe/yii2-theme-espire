@@ -3,15 +3,9 @@
     "description": "Template Espire",
     "license": "LGPL",
     "type": "library",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/nolbertovilchez/yii2-asset"
-        }
-    ],
     "require": {
         "yiisoft/yii2": "^2.0",
-        "insite/yii2-asset": "^1.0"
+        "insite/yii2-asset": "dev-master"
     },
     "authors": [
         {
@@ -23,12 +17,9 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
-        },
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "insite\\theme\\espire\\": ""

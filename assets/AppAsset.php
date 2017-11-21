@@ -22,7 +22,8 @@ class AppAsset extends \yii\web\AssetBundle {
         'insite\asset\Popper',
         'insite\asset\Bootstrap4',
         'insite\asset\Pace',
-        'insite\asset\PerfectScrollbar'
+        'insite\asset\PerfectScrollbar',
+        'insite\asset\Noty'
     ];
     
     public function init()
