@@ -23,7 +23,8 @@ class AppAsset extends \yii\web\AssetBundle {
         'insite\asset\Bootstrap4',
         'insite\asset\Pace',
         'insite\asset\PerfectScrollbar',
-        'insite\asset\Noty'
+        'insite\asset\Noty',
+        'insite\asset\SweetAlert2'
     ];
     
     public function init()
