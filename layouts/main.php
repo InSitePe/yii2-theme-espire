@@ -3,8 +3,10 @@
 /* @var $content string */
 
 use yii\helpers\Html;
-use insite\theme\espire\assets\AppAsset;
+use insite\theme\espire\assets\EspireAsset;
+use app\assets\AppAsset;
 
+EspireAsset::register($this);
 AppAsset::register($this);
 
 $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/insite/yii2-theme-espire/dist');

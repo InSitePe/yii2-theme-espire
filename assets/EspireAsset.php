@@ -2,7 +2,7 @@
 
 namespace insite\theme\espire\assets;
 
-class AppAsset extends \yii\web\AssetBundle {
+class EspireAsset extends \yii\web\AssetBundle {
 
     public $sourcePath = '@vendor/insite/yii2-theme-espire/dist';
     
