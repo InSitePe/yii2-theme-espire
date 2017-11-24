@@ -51,6 +51,18 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/insite/yii2-
                 <!-- Page Container END -->
             </div>
         </div>
+        <script type="text/javascript">
+            var Request = {
+                Host: '<?= \yii::$app->request->hostInfo ?>',
+                BaseUrl: '<?= \yii::$app->homeUrl ?>',
+                _GET: <?= json_encode(\yii::$app->request->get()) ?>,
+                UrlHash: {
+                    m: '<?= (\yii::$app->controller->module->id) ?>',
+                    c: '<?= (\yii::$app->controller->id) ?>',
+                    a: '<?= (\yii::$app->controller->action->id) ?>'
+                }
+            };
+        </script>
         <?php $this->endBody() ?>
     </body>
 </html>

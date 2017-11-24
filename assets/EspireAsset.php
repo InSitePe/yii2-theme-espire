@@ -19,6 +19,7 @@ class EspireAsset extends \yii\web\AssetBundle {
     
     public $depends    = [
         'yii\web\JqueryAsset',
+        'insite\asset\FontAwesome',
         'insite\asset\Popper',
         'insite\asset\Bootstrap4',
         'insite\asset\Pace',
