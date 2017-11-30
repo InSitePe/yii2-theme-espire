@@ -10,6 +10,8 @@ EspireAsset::register($this);
 AppAsset::register($this);
 
 $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/insite/yii2-theme-espire/dist');
+$section_title  = (isset($this->context->section_title)) ? $this->context->section_title : "";
+$current_title  = (isset($this->context->current_title)) ? $this->context->current_title : "";
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -39,7 +41,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/insite/yii2-
                     <div class="main-content">
                         <div class="container-fluid">
                             <div class="page-title">
-                                <h4><?= $this->context->section_title ?> <i class="fa fa-angle-double-right"></i> <small><?= $this->context->current_title ?></small></h4> 
+                                <h4><?= $section_title ?> <i class="fa fa-angle-double-right"></i> <small><?= $current_title ?></small></h4> 
                             </div>
                             <?= $content ?>
                         </div>
