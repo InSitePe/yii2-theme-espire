@@ -4,10 +4,10 @@
 
 use yii\helpers\Html;
 use insite\theme\espire\assets\EspireAsset;
-use app\assets\AppAsset;
+use app\assets\ModuleAsset;
 
 EspireAsset::register($this);
-AppAsset::register($this);
+ModuleAsset::register($this);
 
 $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/insite/yii2-theme-espire/dist');
 $section_title  = (isset($this->context->section_title)) ? $this->context->section_title : "";
